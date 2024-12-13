@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1>
+            <span style="color: #ff0505">K</span>evin.
+          </h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class='bx bxl-xing' onclick="closemenu()"></i>
+          </ul>
+          <i class='bx bx-menu-alt-left'  onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, I'm <span>Kevin</span> <br> Jen from Australia</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- about  -->
+
+    <div id="about">
+      <div class="conntainer">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/630d09bb5e069149d81d7916/ae4a5dbc-b2ce-4cbc-80c6-524d898bcc17/Prima+Model+Agency+Ireland+-+Male+Model+Paul+%284%29.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              atque nisi aliquam voluptatibus odit iste eos fugit nobis cum,
+              repudiandae, iusto harum sint non similique veniam? Iste quaerat
+              perspiciatis quo quas voluptatibus natus? Magni facilis iusto
+              mollitia ab ut excepturi eveniet sint voluptate saepe eum
+              quibusdam nemo doloribus voluptas sequi ad cupiditate et, fuga
+              enim porro minima at non incidunt delectus. Cupiditate, nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet pariatur dolores repellat, ipsum sint quam corrupti rem nobis commodi architecto velit officiis autem optio iusto beatae sit veritatis provident!
+            </p>
+
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Design Web/App Interface</li>
+                    <li><span>Web Devlopment</span><br>Web app Devlopment</li>
+                    <li><span>App Devlopment</span><br>Building Android/IOS apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2019 - 2021</span><br>Team lead at StarApp LLC</li>
+                    <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                    <li><span>2016-2017</span><br>Intership at ekart ecomerce</br></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2016</span><br>MCA from MIT Bangalore</li>
+                    <li><span>2014</span><br>BCA from ISM Bangakore</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- services  -->
+
+    <div id="services">
+      <div class="container">
+        <hi class="sub-title sub-title2" >My Services</hi>
+        <div class="services-list">
+          <div>
+            <i class='bx bx-code-alt'></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quod. Odit veniam, sed animi magnam maxime doloremque maiores molestiae fugit quas deleniti, vitae necessitatibus distinctio perspiciatis architecto explicabo, dolores eaque?</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class='bx bxs-crop'></i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quod. Odit veniam, sed animi magnam maxime doloremque maiores molestiae fugit quas deleniti, vitae necessitatibus distinctio perspiciatis architecto explicabo, dolores eaque?</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class='bx bxl-airbnb'></i>
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quod. Odit veniam, sed animi magnam maxime doloremque maiores molestiae fugit quas deleniti, vitae necessitatibus distinctio perspiciatis architecto explicabo, dolores eaque?</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio  -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/296178163/GX/GL/SD/186724856/vivo-mobile-phone.jpg" alt="">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>The app connects you to the talented people around the world.Download it from play store.</p>
+              <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://www.top10mobileshop.com/images/top10mobiles.com/thumbnail/product/2024/08/820503826202408140846.jpg" alt="">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>The app connects you to the talented people around the world.Download it from play store.</p>
+              <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://www.bigcmobiles.com/media/catalog/product/cache/6f935541fc7266f00577560114fa3a98/s/t/starlight_1.jpg" alt="">
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>The app connects you to the talented people around the world.Download it from play store.</p>
+              <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    
+
+
+    <!-- contact  -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class='bx bx-paper-plane' ></i>contact@example.com</p>
+            <p><i class='bx bxs-phone' ></i>01236789</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/yourprofile" target="_blank"><i class='bx bxl-facebook'></i></a>
+              <a href="https://www.instagram.com/yourprofile" target="_blank"><i class='bx bxl-instagram'></i></a>
+              <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://twitter.com/yourprofile" target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+             <a href="#" download class="btn btn2">Download CV</a> <!-- my-cv.pdf in # -->
+
+
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+         <p>Copyright 2024.<i class='bx bxs-heart' ></i> All rights reserved.</p> <!--change as u want>  -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
